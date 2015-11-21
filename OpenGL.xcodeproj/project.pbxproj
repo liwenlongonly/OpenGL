@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7FB0C661C000C5D00920CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB0C651C000C5D00920CB6 /* AppDelegate.m */; };
-		B7FB0C691C000C5D00920CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB0C681C000C5D00920CB6 /* main.m */; };
-		B7FB0C6C1C000C5D00920CB6 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB0C6B1C000C5D00920CB6 /* Document.m */; };
-		B7FB0C6F1C000C5D00920CB6 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C6D1C000C5D00920CB6 /* Document.xib */; };
 		B7FB0C711C000C5D00920CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C701C000C5D00920CB6 /* Assets.xcassets */; };
 		B7FB0C741C000C5D00920CB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C721C000C5D00920CB6 /* MainMenu.xib */; };
+		B7FB0C7C1C000D2400920CB6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FB0C7B1C000D2400920CB6 /* OpenGL.framework */; };
+		B7FB0C7E1C000D3100920CB6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FB0C7D1C000D3100920CB6 /* GLUT.framework */; };
+		B7FB0C841C00150A00920CB6 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7FB0C7F1C00150A00920CB6 /* Block.cpp */; };
+		B7FB0C851C00150A00920CB6 /* Block4.tga in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C801C00150A00920CB6 /* Block4.tga */; };
+		B7FB0C861C00150A00920CB6 /* Block5.tga in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C811C00150A00920CB6 /* Block5.tga */; };
+		B7FB0C871C00150A00920CB6 /* Block6.tga in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C821C00150A00920CB6 /* Block6.tga */; };
+		B7FB0C881C00150A00920CB6 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = B7FB0C831C00150A00920CB6 /* floor.tga */; };
+		B7FB0CDB1C001B0300920CB6 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FB0CDA1C001B0300920CB6 /* libGLTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7FB0C611C000C5D00920CB6 /* OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7FB0C641C000C5D00920CB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B7FB0C651C000C5D00920CB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B7FB0C681C000C5D00920CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7FB0C6A1C000C5D00920CB6 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		B7FB0C6B1C000C5D00920CB6 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		B7FB0C6E1C000C5D00920CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
 		B7FB0C701C000C5D00920CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7FB0C731C000C5D00920CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B7FB0C751C000C5D00920CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB0C7B1C000D2400920CB6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B7FB0C7D1C000D3100920CB6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B7FB0C7F1C00150A00920CB6 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		B7FB0C801C00150A00920CB6 /* Block4.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block4.tga; sourceTree = "<group>"; };
+		B7FB0C811C00150A00920CB6 /* Block5.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block5.tga; sourceTree = "<group>"; };
+		B7FB0C821C00150A00920CB6 /* Block6.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block6.tga; sourceTree = "<group>"; };
+		B7FB0C831C00150A00920CB6 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		B7FB0CDA1C001B0300920CB6 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FB0CDB1C001B0300920CB6 /* libGLTools.a in Frameworks */,
+				B7FB0C7E1C000D3100920CB6 /* GLUT.framework in Frameworks */,
+				B7FB0C7C1C000D2400920CB6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 		B7FB0C581C000C5D00920CB6 = {
 			isa = PBXGroup;
 			children = (
+				B7FB0C7D1C000D3100920CB6 /* GLUT.framework */,
+				B7FB0C7B1C000D2400920CB6 /* OpenGL.framework */,
 				B7FB0C631C000C5D00920CB6 /* OpenGL */,
 				B7FB0C621C000C5D00920CB6 /* Products */,
 			);
@@ -58,25 +69,17 @@
 		B7FB0C631C000C5D00920CB6 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				B7FB0C641C000C5D00920CB6 /* AppDelegate.h */,
-				B7FB0C651C000C5D00920CB6 /* AppDelegate.m */,
-				B7FB0C6A1C000C5D00920CB6 /* Document.h */,
-				B7FB0C6B1C000C5D00920CB6 /* Document.m */,
-				B7FB0C6D1C000C5D00920CB6 /* Document.xib */,
+				B7FB0CDA1C001B0300920CB6 /* libGLTools.a */,
+				B7FB0C7F1C00150A00920CB6 /* Block.cpp */,
+				B7FB0C801C00150A00920CB6 /* Block4.tga */,
+				B7FB0C811C00150A00920CB6 /* Block5.tga */,
+				B7FB0C821C00150A00920CB6 /* Block6.tga */,
+				B7FB0C831C00150A00920CB6 /* floor.tga */,
 				B7FB0C701C000C5D00920CB6 /* Assets.xcassets */,
 				B7FB0C721C000C5D00920CB6 /* MainMenu.xib */,
 				B7FB0C751C000C5D00920CB6 /* Info.plist */,
-				B7FB0C671C000C5D00920CB6 /* Supporting Files */,
 			);
 			path = OpenGL;
-			sourceTree = "<group>";
-		};
-		B7FB0C671C000C5D00920CB6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7FB0C681C000C5D00920CB6 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +139,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FB0C881C00150A00920CB6 /* floor.tga in Resources */,
 				B7FB0C711C000C5D00920CB6 /* Assets.xcassets in Resources */,
-				B7FB0C6F1C000C5D00920CB6 /* Document.xib in Resources */,
+				B7FB0C871C00150A00920CB6 /* Block6.tga in Resources */,
+				B7FB0C861C00150A00920CB6 /* Block5.tga in Resources */,
 				B7FB0C741C000C5D00920CB6 /* MainMenu.xib in Resources */,
+				B7FB0C851C00150A00920CB6 /* Block4.tga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7FB0C6C1C000C5D00920CB6 /* Document.m in Sources */,
-				B7FB0C691C000C5D00920CB6 /* main.m in Sources */,
-				B7FB0C661C000C5D00920CB6 /* AppDelegate.m in Sources */,
+				B7FB0C841C00150A00920CB6 /* Block.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7FB0C6D1C000C5D00920CB6 /* Document.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7FB0C6E1C000C5D00920CB6 /* Base */,
-			);
-			name = Document.xib;
-			sourceTree = "<group>";
-		};
 		B7FB0C721C000C5D00920CB6 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,8 +257,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/OpenGL/include",
+					"$(PROJECT_DIR)/OpenGL/include/GL",
+				);
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilong.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -273,8 +278,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/OpenGL/include",
+					"$(PROJECT_DIR)/OpenGL/include/GL",
+				);
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilong.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -299,6 +313,7 @@
 				B7FB0C7A1C000C5D00920CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
